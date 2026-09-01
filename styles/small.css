@@ -1,14 +1,22 @@
 :root {
     --bg: #17191a;
+    --header-bg: #1d1f20;
+    --nav-bg: #202223;
+    --footer-bg: #222526;
     --surface: #242728;
     --surface-light: #2d3031;
+    --course-bg: #343738;
+    --course-border: #555555;
+    --course-accent: #666666;
     --red: #9e2f2f;
     --red-dark: #7a2020;
     --gold: #d3a63b;
     --gold-light: #e0bd68;
     --text: #f3f1eb;
     --muted: #c8c3b8;
+    --status-muted: #aaaaaa;
     --border: #4c4a43;
+    --white: #ffffff;
 }
 
 * {
@@ -34,7 +42,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-    background: #1d1f20;
+    background: var(--header-bg);
     border-top: 2px solid var(--gold);
 }
 
@@ -49,6 +57,11 @@ header {
     height: 50px;
 }
 
+.site-brand span {
+    color: var(--text);
+    font-weight: 500;
+}
+
 #menu {
     width: 46px;
     height: 46px;
@@ -56,18 +69,20 @@ header {
     border-radius: 5px;
     background: var(--surface-light);
     color: var(--gold-light);
+    font: inherit;
     font-size: 1.5rem;
     cursor: pointer;
 }
 
-#menu:hover {
+#menu:hover,
+#menu:focus-visible {
     background: var(--red-dark);
-    color: white;
+    color: var(--white);
 }
 
 nav {
     display: none;
-    background: #202223;
+    background: var(--nav-bg);
 }
 
 nav.open {
@@ -86,7 +101,7 @@ nav a {
     color: var(--text);
     text-decoration: none;
     border-left: 4px solid transparent;
-    border-bottom: 1px solid #3c3f40;
+    border-bottom: 1px solid var(--border);
 }
 
 nav a:hover,
@@ -98,7 +113,7 @@ nav a.active {
 main {
     width: calc(100% - 20px);
     max-width: 1050px;
-    margin: auto;
+    margin: 0 auto;
     padding: 14px 0 25px;
 }
 
@@ -122,8 +137,9 @@ section {
 
 section h2 {
     margin: 0;
-    padding: 9px;
+    padding: 9px 12px;
     background: var(--red-dark);
+    color: var(--text);
     border-bottom: 2px solid var(--gold);
     text-align: center;
     font-size: 1rem;
@@ -177,7 +193,7 @@ section h2 {
 .course-buttons button:hover,
 .course-buttons button.selected {
     background: var(--red);
-    color: white;
+    color: var(--white);
 }
 
 #course-list {
@@ -192,14 +208,15 @@ section h2 {
     gap: 10px;
     min-height: 52px;
     padding: 9px 12px;
-    border: 1px solid #555;
-    border-left: 5px solid #666;
+    border: 1px solid var(--course-border);
+    border-left: 5px solid var(--course-accent);
     border-radius: 4px;
-    background: #343738;
+    background: var(--course-bg);
+    color: var(--text);
 }
 
 .course-card.completed {
-    background: #8b2b2b;
+    background: var(--red);
     border-color: var(--gold);
     border-left-color: var(--gold);
 }
@@ -209,11 +226,11 @@ section h2 {
 }
 
 .course-status {
-    color: #aaa;
+    color: var(--status-muted);
     font-size: 0.75rem;
 }
 
-.completed .course-status {
+.course-card.completed .course-status {
     color: var(--gold-light);
     font-weight: 700;
 }
@@ -233,9 +250,9 @@ section h2 {
 footer {
     margin-top: 20px;
     padding: 18px 10px;
-    background: #222526;
-    border-top: 2px solid var(--red-dark);
+    background: var(--footer-bg);
     color: var(--muted);
+    border-top: 2px solid var(--red-dark);
     text-align: center;
     font-size: 0.8rem;
 }
@@ -256,7 +273,7 @@ footer p {
     margin: 5px 0;
 }
 
-@media (max-width: 420px) {
+@media screen and (max-width: 420px) {
     .course-card {
         flex-direction: column;
         align-items: flex-start;

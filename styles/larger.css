@@ -1,104 +1,58 @@
 @media screen and (min-width: 700px) {
-
     header {
         justify-content: flex-start;
-
-        padding-left: 18px;
     }
-
 
     #menu {
         display: none;
     }
 
-
     nav {
         display: block;
     }
-
 
     nav ul {
         display: flex;
     }
 
-
     nav li {
         flex: 1;
     }
 
-
     nav a {
-        padding: 10px 12px;
-
+        text-align: center;
+        border-left: none;
         border-bottom: 3px solid transparent;
     }
 
-
-    nav a:hover {
-        border-bottom-color: var(--gold);
-    }
-
-
+    nav a:hover,
     nav a.active {
-        background-color: var(--red-dark);
-
         border-bottom-color: var(--gold);
     }
-
-
-    main {
-        max-width: 1050px;
-    }
-
 
     .top-sections {
         grid-template-columns: 3fr 2fr;
-
-        gap: 14px;
     }
-
 
     .about,
     .student-photo {
         min-height: 300px;
     }
 
-
     .student-photo img {
         width: calc(100% - 40px);
-
         max-width: 380px;
-
         margin: 18px auto;
-
-        aspect-ratio: 4 / 3;
-
-        object-fit: cover;
     }
-
-
-    .certificate {
-        margin-top: 18px;
-    }
-
 
     #course-list {
         grid-template-columns: repeat(3, 1fr);
-
         gap: 10px;
     }
 
-
     .course-card {
         flex-direction: column;
-
         justify-content: center;
-
         text-align: center;
-    }
-
-
-    footer {
-        margin-top: 10px;
     }
 }
