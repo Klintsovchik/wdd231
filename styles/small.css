@@ -1,0 +1,264 @@
+:root {
+    --bg: #17191a;
+    --surface: #242728;
+    --surface-light: #2d3031;
+    --red: #9e2f2f;
+    --red-dark: #7a2020;
+    --gold: #d3a63b;
+    --gold-light: #e0bd68;
+    --text: #f3f1eb;
+    --muted: #c8c3b8;
+    --border: #4c4a43;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    font-family: "Roboto", Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: #1d1f20;
+    border-top: 2px solid var(--gold);
+}
+
+.site-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.site-brand img {
+    width: 50px;
+    height: 50px;
+}
+
+#menu {
+    width: 46px;
+    height: 46px;
+    border: 1px solid var(--gold);
+    border-radius: 5px;
+    background: var(--surface-light);
+    color: var(--gold-light);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#menu:hover {
+    background: var(--red-dark);
+    color: white;
+}
+
+nav {
+    display: none;
+    background: #202223;
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 12px;
+    color: var(--text);
+    text-decoration: none;
+    border-left: 4px solid transparent;
+    border-bottom: 1px solid #3c3f40;
+}
+
+nav a:hover,
+nav a.active {
+    background: var(--red-dark);
+    border-left-color: var(--gold);
+}
+
+main {
+    width: calc(100% - 20px);
+    max-width: 1050px;
+    margin: auto;
+    padding: 14px 0 25px;
+}
+
+h1 {
+    margin: 0 0 14px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.top-sections {
+    display: grid;
+    gap: 14px;
+}
+
+section {
+    overflow: hidden;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+}
+
+section h2 {
+    margin: 0;
+    padding: 9px;
+    background: var(--red-dark);
+    border-bottom: 2px solid var(--gold);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.about p {
+    margin: 0;
+    padding: 14px;
+    color: var(--muted);
+    line-height: 1.5;
+}
+
+.student-photo {
+    text-align: center;
+}
+
+.student-photo img {
+    width: calc(100% - 30px);
+    max-width: 340px;
+    aspect-ratio: 4 / 3;
+    margin: 15px auto;
+    object-fit: cover;
+    border: 4px solid var(--gold);
+    border-radius: 6px;
+}
+
+.certificate {
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+}
+
+.course-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    padding: 10px 0;
+}
+
+.course-buttons button {
+    min-height: 42px;
+    border: 1px solid var(--gold);
+    border-radius: 5px;
+    background: var(--surface-light);
+    color: var(--text);
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.course-buttons button:hover,
+.course-buttons button.selected {
+    background: var(--red);
+    color: white;
+}
+
+#course-list {
+    display: grid;
+    gap: 8px;
+}
+
+.course-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    min-height: 52px;
+    padding: 9px 12px;
+    border: 1px solid #555;
+    border-left: 5px solid #666;
+    border-radius: 4px;
+    background: #343738;
+}
+
+.course-card.completed {
+    background: #8b2b2b;
+    border-color: var(--gold);
+    border-left-color: var(--gold);
+}
+
+.course-name {
+    font-weight: 700;
+}
+
+.course-status {
+    color: #aaa;
+    font-size: 0.75rem;
+}
+
+.completed .course-status {
+    color: var(--gold-light);
+    font-weight: 700;
+}
+
+.credits {
+    margin: 12px 0 0;
+    color: var(--muted);
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+#total-credits {
+    color: var(--gold-light);
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 18px 10px;
+    background: #222526;
+    border-top: 2px solid var(--red-dark);
+    color: var(--muted);
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.social-links img {
+    width: 34px;
+    height: 34px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+@media (max-width: 420px) {
+    .course-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
