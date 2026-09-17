@@ -12,9 +12,8 @@
         content="WDD 231 course home page for Web and Computer Programming certificate courses."
     >
 
-    <meta name="author" content="YOUR NAME">
+    <meta name="author" content="Timothy Klintsov">
 
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -23,11 +22,11 @@
         rel="stylesheet"
     >
 
-    <!-- CSS -->
+
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
-    <!-- JavaScript -->
+
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/course.js" defer></script>
@@ -47,7 +46,7 @@
         <div class="site-brand">
             <img
                 src="images/logo.svg"
-                alt="Site logo"
+                alt="Timothy Klintsov site logo"
                 width="60"
                 height="60"
             >
@@ -59,6 +58,7 @@
             id="menu"
             aria-label="Open navigation menu"
             aria-expanded="false"
+            aria-controls="navigation"
         >
             ☰
         </button>
@@ -68,11 +68,11 @@
     <nav id="navigation">
         <ul>
             <li>
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html" class="active" aria-current="page">Home</a>
             </li>
 
             <li>
-                <a href="chamber/index.html">Chamber Project</a>
+                <a href="directory.html">Chamber Project</a>
             </li>
 
             <li>
@@ -118,17 +118,9 @@
 
             <div class="course-buttons">
 
-                <button id="all" type="button">
-                    All
-                </button>
-
-                <button id="cse" type="button">
-                    CSE
-                </button>
-
-                <button id="wdd" type="button">
-                    WDD
-                </button>
+                <button id="all" type="button" aria-pressed="true">All</button>
+                <button id="cse" type="button" aria-pressed="false">CSE</button>
+                <button id="wdd" type="button" aria-pressed="false">WDD</button>
 
             </div>
 

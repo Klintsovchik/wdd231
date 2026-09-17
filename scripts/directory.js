@@ -1,42 +1,32 @@
 const url = "data/members.json";
 
-const members =
-  document.querySelector("#members");
-
-const gridButton =
-  document.querySelector("#gridButton");
-
-const listButton =
-  document.querySelector("#listButton");
+const members = document.querySelector("#members");
+const gridButton = document.querySelector("#gridButton");
+const listButton = document.querySelector("#listButton");
 
 
 async function getMembers() {
-
-  const response =
-    await fetch(url);
-
-  const data =
-    await response.json();
+  const response = await fetch(url);
+  const data = await response.json();
 
   displayMembers(data.members);
 }
 
 
 function displayMembers(data) {
-
   members.innerHTML = "";
 
   data.forEach(member => {
-
-    const card =
-      document.createElement("div");
+    const card = document.createElement("article");
 
     card.classList.add("member-card");
 
     card.innerHTML = `
-      <img src="${member.image}"
-           alt="${member.name}"
-           loading="lazy">
+      <img
+        src="${member.image}"
+        alt="${member.name}"
+        loading="lazy"
+      >
 
       <div class="member-info">
 
@@ -51,11 +41,17 @@ function displayMembers(data) {
 
         <p>
           <strong>Phone:</strong>
-          ${member.phone}
+          <a href="tel:${member.phone.replace(/\s+/g, "")}">
+            ${member.phone}
+          </a>
         </p>
-
-        <a href="${member.website}"
-           target="_blank">
+        
+        <a
+          href="${member.website}"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit ${member.name} website (opens in a new tab)"
+        >
           Website
         </a>
 
@@ -63,46 +59,37 @@ function displayMembers(data) {
     `;
 
     members.appendChild(card);
-
   });
 }
 
 
-gridButton.addEventListener(
-  "click",
-  () => {
+gridButton.addEventListener("click", () => {
+  members.className = "members-grid";
 
-    members.className =
-      "members-grid";
+  gridButton.classList.add("active");
+  listButton.classList.remove("active");
 
-    gridButton.classList.add("active");
-    listButton.classList.remove("active");
-
-  }
-);
+  gridButton.setAttribute("aria-pressed", "true");
+  listButton.setAttribute("aria-pressed", "false");
+});
 
 
-listButton.addEventListener(
-  "click",
-  () => {
+listButton.addEventListener("click", () => {
+  members.className = "members-list";
 
-    members.className =
-      "members-list";
+  listButton.classList.add("active");
+  gridButton.classList.remove("active");
 
-    listButton.classList.add("active");
-    gridButton.classList.remove("active");
-
-  }
-);
+  listButton.setAttribute("aria-pressed", "true");
+  gridButton.setAttribute("aria-pressed", "false");
+});
 
 
-document.querySelector("#year")
-  .textContent =
+document.querySelector("#year").textContent =
   new Date().getFullYear();
 
 
-document.querySelector("#lastModified")
-  .textContent =
+document.querySelector("#lastModified").textContent =
   document.lastModified;
 
 

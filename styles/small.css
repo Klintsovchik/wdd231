@@ -225,9 +225,15 @@ section h2 {
     font-weight: 700;
 }
 
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--gold-light);
+    outline-offset: 3px;
+}
+
 .course-status {
     color: var(--status-muted);
-    font-size: 0.75rem;
+    font-size: 0.875rem;
 }
 
 .course-card.completed .course-status {
@@ -254,7 +260,7 @@ footer {
     color: var(--muted);
     border-top: 2px solid var(--red-dark);
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.875rem;
 }
 
 .social-links {

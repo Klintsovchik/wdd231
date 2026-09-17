@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="styles/directory.css">
   <script src="scripts/directory.js" defer></script>
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
 
         <nav>
         <a href="index.html">Home</a>
-        <a href="directory.html" class="active">Directory</a>
+        <a href="directory.html" class="active" aria-current="page">Directory</a>
         <a href="join.html">Join</a>
         <a href="discover.html">Discover</a>
         </nav>
@@ -41,8 +42,8 @@
     </p>
 
     <div class="controls">
-        <button id="gridButton" class="active">Grid</button>
-        <button id="listButton">List</button>
+        <button id="gridButton" class="active" aria-pressed="true">Grid</button>
+        <button id="listButton" aria-pressed="false">List</button>
     </div>
 
     <section id="members" class="members-grid"></section>
