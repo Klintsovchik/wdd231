@@ -1,0 +1,74 @@
+{
+  "members": [
+    {
+      "name": "Black Sea Cafe",
+      "tagline": "Coffee roasted on the boulevard",
+      "address": "12 Ninoshvili St, Batumi, Georgia",
+      "email": "info@blackseacafe.ge",
+      "phone": "+995 555 111 111",
+      "website": "https://blackseacafe.ge",
+      "image": "images/black-sea-cafe.jpg",
+      "membership": 3
+    },
+    {
+      "name": "Batumi Hotel",
+      "tagline": "Sea view rooms in Old Batumi",
+      "address": "8 Rustaveli Ave, Batumi, Georgia",
+      "email": "info@batumihotel.ge",
+      "phone": "+995 555 222 222",
+      "website": "https://batumihotel.ge",
+      "image": "images/batumi-seafront.jpg",
+      "membership": 3
+    },
+    {
+      "name": "Adjara Logistics",
+      "tagline": "Freight through the Port of Batumi",
+      "address": "45 Port Rd, Batumi, Georgia",
+      "email": "info@adjaralogistics.ge",
+      "phone": "+995 555 333 333",
+      "website": "https://adjaralogistics.ge",
+      "image": "images/adjara-logistics.jpg",
+      "membership": 2
+    },
+    {
+      "name": "Gonio IT Solutions",
+      "tagline": "Software teams for local business",
+      "address": "3 Gorgasali St, Batumi, Georgia",
+      "email": "info@gonioit.ge",
+      "phone": "+995 555 444 444",
+      "website": "https://gonioit.ge",
+      "image": "images/gonio-it.jpg",
+      "membership": 3
+    },
+    {
+      "name": "Alphabet Coworking",
+      "tagline": "Desks and meeting rooms by the sea",
+      "address": "1 Miracle Park, Batumi, Georgia",
+      "email": "info@alphabetcowork.ge",
+      "phone": "+995 555 555 555",
+      "website": "https://alphabetcowork.ge",
+      "image": "images/alphabet-coworking.jpg",
+      "membership": 2
+    },
+    {
+      "name": "Piazza Tours",
+      "tagline": "Guided day trips across Adjara",
+      "address": "6 Piazza Sq, Batumi, Georgia",
+      "email": "info@piazzatours.ge",
+      "phone": "+995 555 666 666",
+      "website": "https://piazzatours.ge",
+      "image": "images/piazza-tours.jpg",
+      "membership": 2
+    },
+    {
+      "name": "Chorokhi Fresh Market",
+      "tagline": "Local produce from the Chorokhi valley",
+      "address": "22 Chavchavadze St, Batumi, Georgia",
+      "email": "info@chorokhifresh.ge",
+      "phone": "+995 555 777 777",
+      "website": "https://chorokhifresh.ge",
+      "image": "images/chorokhi-market.jpg",
+      "membership": 1
+    }
+  ]
+}

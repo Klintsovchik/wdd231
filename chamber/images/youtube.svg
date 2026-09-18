@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="YouTube">
+  <title>YouTube</title>
+  <circle cx="24" cy="24" r="24" fill="#ffffff"/>
+  <path d="M35 18.5a3.5 3.5 0 0 0-2.5-2.5C30.3 15.4 24 15.4 24 15.4s-6.3 0-8.5.6A3.5 3.5 0 0 0 13 18.5a36 36 0 0 0-.6 6.6c0 2.2.2 4.4.6 6.6a3.5 3.5 0 0 0 2.5 2.5c2.2.6 8.5.6 8.5.6s6.3 0 8.5-.6a3.5 3.5 0 0 0 2.5-2.5c.4-2.2.6-4.4.6-6.6a36 36 0 0 0-.6-6.6z" fill="#2a4d69"/>
+  <path d="M21.9 29.1l5.7-4-5.7-4v8z" fill="#ffffff"/>
+</svg>

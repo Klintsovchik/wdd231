@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Home | Batumi Chamber of Commerce</title>
+
+  <meta name="description" content="Home page of the Batumi Chamber of Commerce with events, weather and member spotlights.">
+  <meta name="author" content="Timothy Klintsov">
+
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="scripts/main.js" defer></script>
+  <script type="module" src="scripts/home.mjs"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-bar">
+      <a class="logo" href="index.html">
+        <img src="images/logo.svg" alt="" width="40" height="40">
+        <span>Batumi Chamber of Commerce</span>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="discover.html">Discover</a></li>
+        </ul>
+      </nav>
+
+      <button id="theme-button" type="button" aria-label="Dark mode">&#9680;</button>
+      <button id="menu-button" type="button" aria-label="Menu">&#9776;</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <img
+        src="images/batumi-seafront.jpg"
+        alt="Old buildings on the Batumi seafront"
+        width="1024"
+        height="683"
+      >
+
+      <div class="hero-text">
+        <h1>Welcome to the Batumi Chamber of Commerce</h1>
+
+        <p>We help local businesses in Adjara grow and work together.</p>
+
+        <a class="cta-button" href="join.html">Join the Chamber</a>
+      </div>
+    </section>
+
+    <div class="home-sections">
+
+      <section class="events">
+        <h2>Current Events</h2>
+
+        <ul>
+          <li>
+            <span class="event-date">October 9, 2026</span>
+            <h3>Autumn Business Mixer</h3>
+            <p>A networking evening for members and their guests.</p>
+          </li>
+
+          <li>
+            <span class="event-date">October 22, 2026</span>
+            <h3>Export Workshop</h3>
+            <p>How to sell into the European Union from the Port of Batumi.</p>
+          </li>
+
+          <li>
+            <span class="event-date">November 5, 2026</span>
+            <h3>Chamber Awards Luncheon</h3>
+            <p>We name the Adjara Business of the Year.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="weather">
+        <h2>Weather in Batumi</h2>
+
+        <div class="weather-now">
+          <img id="weather-icon" src="images/logo.svg" alt="" width="70" height="70">
+
+          <p>
+            <span id="current-temp"></span>
+            <span id="current-desc"></span>
+          </p>
+        </div>
+
+        <h3>Three Day Forecast</h3>
+
+        <ul id="forecast-list"></ul>
+      </section>
+
+    </div>
+
+    <section class="spotlights">
+      <h2>Member Spotlights</h2>
+
+      <div id="spotlights"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        <h2>Batumi Chamber of Commerce</h2>
+
+        <address>
+          12 Rustaveli Avenue<br>
+          Batumi, Georgia 6010<br>
+          info@batumichamber.ge<br>
+          (+995) 555 000 300
+        </address>
+      </div>
+
+      <div class="social">
+        <a href="https://www.youtube.com/"><img src="images/youtube.svg" alt="YouTube" width="44" height="44"></a>
+        <a href="https://twitter.com/"><img src="images/twitter.svg" alt="Twitter" width="44" height="44"></a>
+        <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="LinkedIn" width="44" height="44"></a>
+      </div>
+
+      <div class="footer-info">
+        WDD231 Class Project<br>
+        Timothy Klintsov<br>
+        &copy; <span id="year"></span> Batumi Chamber of Commerce<br>
+        Last Modification: <span id="lastModified"></span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Directory | Batumi Chamber of Commerce</title>
+
+  <meta name="description" content="Member business directory of the Batumi Chamber of Commerce.">
+  <meta name="author" content="Timothy Klintsov">
+
+  <meta property="og:title" content="Batumi Chamber of Commerce Directory">
+  <meta property="og:description" content="Member business directory of the Batumi Chamber of Commerce.">
+  <meta property="og:image" content="https://klintsovchik.github.io/wdd231/chamber/images/batumi-seafront.jpg">
+  <meta property="og:url" content="https://klintsovchik.github.io/wdd231/chamber/directory.html">
+
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-bar">
+      <a class="logo" href="index.html">
+        <img src="images/logo.svg" alt="" width="40" height="40">
+        <span>Batumi Chamber of Commerce</span>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html" class="active">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="discover.html">Discover</a></li>
+        </ul>
+      </nav>
+
+      <button id="theme-button" type="button" aria-label="Dark mode">&#9680;</button>
+      <button id="menu-button" type="button" aria-label="Menu">&#9776;</button>
+    </div>
+  </header>
+
+  <main>
+
+    <h1>Directory</h1>
+
+    <div class="view-buttons">
+      <button id="grid-button" type="button" class="active">Grid</button>
+      <button id="list-button" type="button">List</button>
+    </div>
+
+    <div id="members" class="members-grid"></div>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        <h2>Batumi Chamber of Commerce</h2>
+
+        <address>
+          12 Rustaveli Avenue<br>
+          Batumi, Georgia 6010<br>
+          info@batumichamber.ge<br>
+          (+995) 555 000 300
+        </address>
+      </div>
+
+      <div class="social">
+        <a href="https://www.youtube.com/"><img src="images/youtube.svg" alt="YouTube" width="44" height="44"></a>
+        <a href="https://twitter.com/"><img src="images/twitter.svg" alt="Twitter" width="44" height="44"></a>
+        <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="LinkedIn" width="44" height="44"></a>
+      </div>
+
+      <div class="footer-info">
+        WDD231 Class Project<br>
+        Timothy Klintsov<br>
+        &copy; <span id="year"></span> Batumi Chamber of Commerce<br>
+        Last Modification: <span id="lastModified"></span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
