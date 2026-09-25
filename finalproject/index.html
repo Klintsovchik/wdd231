@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Twelve | Stories of the Apostles</title>
+
+  <meta
+    name="description"
+    content="Explore the lives, stories, and important moments of the Twelve Apostles of Jesus Christ."
+  >
+  <meta name="author" content="Timothy Klintsov">
+
+  <meta property="og:title" content="The Twelve - Stories of the Apostles">
+  <meta
+    property="og:description"
+    content="Discover the apostles of Jesus Christ through stories, historical context, and interactive content."
+  >
+  <meta property="og:type" content="website">
+  <meta
+    property="og:url"
+    content="https://klintsovchik.github.io/wdd231/finalproject/"
+  >
+  <meta
+    property="og:image"
+    content="https://klintsovchik.github.io/wdd231/finalproject/images/hero-apostles.webp"
+  >
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-container">
+
+      <a class="site-brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>
+          <strong>The Twelve</strong>
+          <small>Stories of the Apostles</small>
+        </span>
+      </a>
+
+      <button
+        id="menu-button"
+        class="menu-button"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        ☰
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a class="active" href="index.html" aria-current="page">Home</a>
+        <a href="apostles.html">Apostles</a>
+        <a href="journey.html">Journey</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero compact-section">
+      <div class="hero-layout">
+
+        <div class="hero-text">
+          <p class="eyebrow">Stories of faith and transformation</p>
+
+          <h1>The Twelve</h1>
+
+          <p class="hero-tagline">
+            Twelve ordinary men.
+            <strong>One extraordinary calling.</strong>
+          </p>
+
+          <p>
+            Explore the people who followed Jesus Christ, witnessed His
+            ministry, and carried His message forward.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary-button" href="apostles.html">
+              Meet the Apostles
+            </a>
+
+            <button
+              id="quick-facts-button"
+              class="button secondary-button"
+              type="button"
+            >
+              Quick Facts
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="images/hero-apostles.webp"
+            alt="Illustration representing Jesus Christ and His apostles"
+            width="650"
+            height="420"
+          >
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- FEATURED APOSTLES -->
+    <section class="featured compact-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Featured</p>
+          <h2>Meet three of the Twelve</h2>
+        </div>
+
+        <a class="text-link" href="apostles.html">
+          View all →
+        </a>
+      </div>
+
+      <div class="apostle-grid">
+
+        <article class="apostle-card">
+          <img
+            src="images/peter.webp"
+            alt="Illustration of Simon Peter"
+            width="300"
+            height="220"
+            loading="lazy"
+          >
+
+          <div class="apostle-card-content">
+            <h3>Simon Peter</h3>
+            <p class="apostle-role">Fisherman</p>
+            <p>
+              A devoted but imperfect disciple whose story includes courage,
+              failure, and growth.
+            </p>
+            <a href="apostles.html#peter">Read story →</a>
+          </div>
+        </article>
+
+
+        <article class="apostle-card">
+          <img
+            src="images/john.webp"
+            alt="Illustration of John the Apostle"
+            width="300"
+            height="220"
+            loading="lazy"
+          >
+
+          <div class="apostle-card-content">
+            <h3>John</h3>
+            <p class="apostle-role">Son of Zebedee</p>
+            <p>
+              John witnessed several of the most important events recorded
+              during the ministry of Jesus.
+            </p>
+            <a href="apostles.html#john">Read story →</a>
+          </div>
+        </article>
+
+
+        <article class="apostle-card">
+          <img
+            src="images/james.webp"
+            alt="Illustration of James the son of Zebedee"
+            width="300"
+            height="220"
+            loading="lazy"
+          >
+
+          <div class="apostle-card-content">
+            <h3>James</h3>
+            <p class="apostle-role">Son of Thunder</p>
+            <p>
+              James left his fishing work and became one of the apostles
+              closest to several key moments of Christ's ministry.
+            </p>
+            <a href="apostles.html#james">Read story →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- SHORT INFO BLOCK -->
+    <section class="why-section compact-section">
+      <div class="why-content">
+
+        <div>
+          <p class="eyebrow">Why their stories matter</p>
+          <h2>Real people. Real choices. Real change.</h2>
+        </div>
+
+        <p>
+          The apostles were not presented as perfect men. Their stories
+          include questions, mistakes, loyalty, fear, and transformation.
+          That human side makes their experiences compelling and relatable.
+        </p>
+
+        <a class="button secondary-button" href="journey.html">
+          Explore Their Journey
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- MODAL -->
+  <dialog id="quick-facts-modal" class="facts-modal">
+
+    <button
+      id="close-facts-modal"
+      class="modal-close"
+      type="button"
+      aria-label="Close quick facts"
+    >
+      ×
+    </button>
+
+    <p class="eyebrow">Quick Facts</p>
+
+    <h2>Who were the Twelve?</h2>
+
+    <div class="facts-grid">
+      <div>
+        <strong>12</strong>
+        <span>Apostles chosen by Jesus</span>
+      </div>
+
+      <div>
+        <strong>Galilee</strong>
+        <span>Home region of several apostles</span>
+      </div>
+
+      <div>
+        <strong>Fishermen</strong>
+        <span>Peter, Andrew, James, and John worked as fishermen</span>
+      </div>
+
+      <div>
+        <strong>Matthew</strong>
+        <span>Was identified as a tax collector</span>
+      </div>
+    </div>
+
+    <p class="modal-note">
+      Learn more about each apostle on the Apostles page.
+    </p>
+
+    <a class="button primary-button" href="apostles.html">
+      Explore All Apostles
+    </a>
+
+  </dialog>
+
+
+  <footer class="site-footer">
+    <div class="footer-content">
+
+      <p>
+        &copy; <span id="current-year">2026</span>
+        Timothy Klintsov | WDD 231
+      </p>
+
+      <div class="footer-links">
+        <a href="attributions.html">Attributions</a>
+        <a href="https://klintsovchik.github.io/wdd231/">Course Home</a>
+      </div>
+
+      <p id="last-modified"></p>
+
+    </div>
+  </footer>
+
+</body>
+</html>
