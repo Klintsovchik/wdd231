@@ -41,6 +41,10 @@
     align-items: center;
   }
 
+  .join-layout {
+    grid-template-columns: 2fr 1fr;
+  }
+
   .footer-info {
     text-align: right;
   }

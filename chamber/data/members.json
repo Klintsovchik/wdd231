@@ -7,7 +7,7 @@
       "email": "info@blackseacafe.ge",
       "phone": "+995 555 111 111",
       "website": "https://blackseacafe.ge",
-      "image": "images/black-sea-cafe.jpg",
+      "image": "images/black-sea-cafe.webp",
       "membership": 3
     },
     {
@@ -17,7 +17,7 @@
       "email": "info@batumihotel.ge",
       "phone": "+995 555 222 222",
       "website": "https://batumihotel.ge",
-      "image": "images/batumi-seafront.jpg",
+      "image": "images/batumi-hotel.webp",
       "membership": 3
     },
     {
@@ -27,47 +27,57 @@
       "email": "info@adjaralogistics.ge",
       "phone": "+995 555 333 333",
       "website": "https://adjaralogistics.ge",
-      "image": "images/adjara-logistics.jpg",
+      "image": "images/logistic.webp",
       "membership": 2
     },
     {
-      "name": "Gonio IT Solutions",
-      "tagline": "Software teams for local business",
-      "address": "3 Gorgasali St, Batumi, Georgia",
-      "email": "info@gonioit.ge",
+      "name": "Boulevard Wine House",
+      "tagline": "Georgian wines and dinner by the sea",
+      "address": "30 Rustaveli Ave, Batumi, Georgia",
+      "email": "info@boulevardwine.ge",
       "phone": "+995 555 444 444",
-      "website": "https://gonioit.ge",
-      "image": "images/gonio-it.jpg",
-      "membership": 3
+      "website": "https://boulevardwine.ge",
+      "image": "images/wine.webp",
+      "membership": 2
     },
     {
-      "name": "Alphabet Coworking",
-      "tagline": "Desks and meeting rooms by the sea",
-      "address": "1 Miracle Park, Batumi, Georgia",
-      "email": "info@alphabetcowork.ge",
+      "name": "Batumi Port Tours",
+      "tagline": "Boat trips along the Adjara coast",
+      "address": "5 Gogebashvili St, Batumi, Georgia",
+      "email": "info@batumiporttours.ge",
       "phone": "+995 555 555 555",
-      "website": "https://alphabetcowork.ge",
-      "image": "images/alphabet-coworking.jpg",
-      "membership": 2
+      "website": "https://batumiporttours.ge",
+      "image": "images/port-tours.webp",
+      "membership": 1
     },
     {
-      "name": "Piazza Tours",
-      "tagline": "Guided day trips across Adjara",
-      "address": "6 Piazza Sq, Batumi, Georgia",
-      "email": "info@piazzatours.ge",
+      "name": "Old Town Bakery",
+      "tagline": "Fresh khachapuri every morning",
+      "address": "14 Kutaisi St, Batumi, Georgia",
+      "email": "info@oldtownbakery.ge",
       "phone": "+995 555 666 666",
-      "website": "https://piazzatours.ge",
-      "image": "images/piazza-tours.jpg",
+      "website": "https://oldtownbakery.ge",
+      "image": "images/bakery.webp",
+      "membership": 1
+    },
+    {
+      "name": "Seaside Fitness Club",
+      "tagline": "Training with a view of the Black Sea",
+      "address": "27 Sherif Khimshiashvili St, Batumi, Georgia",
+      "email": "info@seasidefitness.ge",
+      "phone": "+995 555 777 777",
+      "website": "https://seasidefitness.ge",
+      "image": "images/fitness.webp",
       "membership": 2
     },
     {
-      "name": "Chorokhi Fresh Market",
-      "tagline": "Local produce from the Chorokhi valley",
-      "address": "22 Chavchavadze St, Batumi, Georgia",
-      "email": "info@chorokhifresh.ge",
-      "phone": "+995 555 777 777",
-      "website": "https://chorokhifresh.ge",
-      "image": "images/chorokhi-market.jpg",
+      "name": "Botanical Garden Flowers",
+      "tagline": "Bouquets grown on the Green Cape",
+      "address": "2 Green Cape Rd, Batumi, Georgia",
+      "email": "info@gardenflowers.ge",
+      "phone": "+995 555 888 888",
+      "website": "https://gardenflowers.ge",
+      "image": "images/flowers.webp",
       "membership": 1
     }
   ]
