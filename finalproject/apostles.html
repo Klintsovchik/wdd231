@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Apostles | The Twelve</title>
+  <meta name="description" content="Short biographies of the apostles of Jesus Christ with their hometowns, occupations, and New Testament references.">
+  <meta name="author" content="Timothy Klintsov">
+  <meta property="og:title" content="The Apostles | The Twelve">
+  <meta property="og:description" content="Short biographies of the apostles of Jesus Christ with their hometowns, occupations, and New Testament references.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://klintsovchik.github.io/wdd231/finalproject/apostles.html">
+  <meta property="og:image" content="https://klintsovchik.github.io/wdd231/finalproject/images/peter.webp">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <script type="module" src="scripts/apostles.js"></script>
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">The Twelve</a>
+    <button id="menu-button" type="button" aria-label="Menu" aria-expanded="false" aria-controls="main-nav">☰</button>
+    <nav id="main-nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="apostles.html" aria-current="page">Apostles</a>
+      <a href="journey.html">Journey</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>The Apostles</h1>
+    <p>
+      Jesus called twelve men to be His witnesses. After the Resurrection, Matthias,
+      Paul, and Barnabas were also called apostles.
+    </p>
+
+    <label for="group-filter">Show:</label>
+    <select id="group-filter">
+      <option value="all">All apostles</option>
+      <option value="twelve">The original Twelve</option>
+      <option value="later">Called later</option>
+    </select>
+
+    <div id="apostle-list" class="grid"></div>
+
+    <dialog id="apostle-modal"></dialog>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="current-year">2026</span> Timothy Klintsov | WDD 231</p>
+    <p>
+      <a href="attributions.html">Attributions</a> |
+      <a href="https://www.youtube.com/watch?v=REPLACE-WITH-VIDEO-ID">Video Demo</a> |
+      <a href="https://klintsovchik.github.io/wdd231/">Course Home</a>
+    </p>
+    <p id="last-modified"></p>
+  </footer>
+</body>
+</html>
