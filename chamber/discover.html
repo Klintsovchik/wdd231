@@ -7,10 +7,10 @@
 
   <title>Discover | Batumi Chamber of Commerce</title>
 
-  <meta name="description" content="Discover places, events, and culture in Batumi with the Batumi Chamber of Commerce.">
+  <meta name="description" content="Discover Batumi, Georgia: the boulevard, Old Town, botanical garden, Gonio Fortress, and more places to visit.">
   <meta name="author" content="Timothy Klintsov">
 
-  <meta property="og:title" content="Discover Batumi">
+  <meta property="og:title" content="Discover Batumi | Batumi Chamber of Commerce">
   <meta property="og:description" content="Discover the places, culture, and events that make Batumi a great city to live, visit, and do business in.">
   <meta property="og:image" content="https://klintsovchik.github.io/wdd231/chamber/images/batumi-seafront.jpg">
   <meta property="og:url" content="https://klintsovchik.github.io/wdd231/chamber/discover.html">
@@ -19,11 +19,13 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/discover.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
   <script src="scripts/main.js" defer></script>
+  <script type="module" src="scripts/discover.mjs"></script>
 </head>
 
 <body>
@@ -31,7 +33,7 @@
   <header>
     <div class="header-bar">
       <a class="logo" href="index.html">
-        <img src="images/logo.svg" alt="" width="40" height="40">
+        <img src="images/logo.webp" alt="" width="25" height="50">
         <span>Batumi Chamber of Commerce</span>
       </a>
 
@@ -53,7 +55,23 @@
 
     <h1>Discover Batumi</h1>
 
-    <p>This page is coming soon.</p>
+    <div id="visit" class="visit-message" role="status">
+      <p></p>
+      <button type="button" aria-label="Close message">&#10005;</button>
+    </div>
+
+    <section class="city-facts">
+      <h2>Batumi at a Glance</h2>
+
+      <ul>
+        <li><strong>Region:</strong> capital of the Autonomous Republic of Adjara</li>
+        <li><strong>Population:</strong> about 170,000 residents</li>
+        <li><strong>Economy:</strong> Black Sea port, tourism, and trade</li>
+        <li><strong>Climate:</strong> humid subtropical, mild winters</li>
+      </ul>
+    </section>
+
+    <div id="places" class="places"></div>
 
   </main>
 

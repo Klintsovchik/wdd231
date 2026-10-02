@@ -6,7 +6,7 @@
       "address": "12 Ninoshvili St, Batumi, Georgia",
       "email": "info@blackseacafe.ge",
       "phone": "+995 555 111 111",
-      "website": "https://blackseacafe.ge",
+      "website": "https://example.com",
       "image": "images/black-sea-cafe.webp",
       "membership": 3
     },
@@ -16,7 +16,7 @@
       "address": "8 Rustaveli Ave, Batumi, Georgia",
       "email": "info@batumihotel.ge",
       "phone": "+995 555 222 222",
-      "website": "https://batumihotel.ge",
+      "website": "https://example.com",
       "image": "images/batumi-hotel.webp",
       "membership": 3
     },
@@ -26,7 +26,7 @@
       "address": "45 Port Rd, Batumi, Georgia",
       "email": "info@adjaralogistics.ge",
       "phone": "+995 555 333 333",
-      "website": "https://adjaralogistics.ge",
+      "website": "https://example.com",
       "image": "images/logistic.webp",
       "membership": 2
     },
@@ -36,7 +36,7 @@
       "address": "30 Rustaveli Ave, Batumi, Georgia",
       "email": "info@boulevardwine.ge",
       "phone": "+995 555 444 444",
-      "website": "https://boulevardwine.ge",
+      "website": "https://example.com",
       "image": "images/wine.webp",
       "membership": 2
     },
@@ -46,7 +46,7 @@
       "address": "5 Gogebashvili St, Batumi, Georgia",
       "email": "info@batumiporttours.ge",
       "phone": "+995 555 555 555",
-      "website": "https://batumiporttours.ge",
+      "website": "https://example.com",
       "image": "images/port-tours.webp",
       "membership": 1
     },
@@ -56,7 +56,7 @@
       "address": "14 Kutaisi St, Batumi, Georgia",
       "email": "info@oldtownbakery.ge",
       "phone": "+995 555 666 666",
-      "website": "https://oldtownbakery.ge",
+      "website": "https://example.com",
       "image": "images/bakery.webp",
       "membership": 1
     },
@@ -66,7 +66,7 @@
       "address": "27 Sherif Khimshiashvili St, Batumi, Georgia",
       "email": "info@seasidefitness.ge",
       "phone": "+995 555 777 777",
-      "website": "https://seasidefitness.ge",
+      "website": "https://example.com",
       "image": "images/fitness.webp",
       "membership": 2
     },
@@ -76,7 +76,7 @@
       "address": "2 Green Cape Rd, Batumi, Georgia",
       "email": "info@gardenflowers.ge",
       "phone": "+995 555 888 888",
-      "website": "https://gardenflowers.ge",
+      "website": "https://example.com",
       "image": "images/flowers.webp",
       "membership": 1
     }

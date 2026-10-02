@@ -1,0 +1,167 @@
+[
+  {
+    "id": "peter",
+    "name": "Simon Peter",
+    "title": "The Rock",
+    "group": "twelve",
+    "occupation": "Fisherman",
+    "hometown": "Bethsaida, Galilee",
+    "image": "images/peter.webp",
+    "bio": "Simon was a fisherman who worked on the Sea of Galilee with his brother Andrew. Jesus gave him the name Cephas, or Peter, meaning \"stone.\" He walked on water, confessed that Jesus was the Christ, and later denied knowing Him three times. After the Resurrection, Peter was restored to his calling and boldly preached on the day of Pentecost.",
+    "reference": "Matthew 16:13-19; Luke 22:54-62"
+  },
+  {
+    "id": "andrew",
+    "name": "Andrew",
+    "title": "The First Called",
+    "group": "twelve",
+    "occupation": "Fisherman",
+    "hometown": "Bethsaida, Galilee",
+    "image": "images/andrew.webp",
+    "bio": "Andrew was first a disciple of John the Baptist. After hearing John testify of Jesus, he followed the Savior and immediately found his brother Simon, saying, \"We have found the Messias.\" Andrew is often seen bringing others to Jesus, including the boy with five loaves and two fishes and a group of Greeks who wanted to see the Lord.",
+    "reference": "John 1:35-42; John 6:8-9"
+  },
+  {
+    "id": "james",
+    "name": "James",
+    "title": "Son of Thunder",
+    "group": "twelve",
+    "occupation": "Fisherman",
+    "hometown": "Capernaum, Galilee",
+    "image": "images/james.webp",
+    "bio": "James and his brother John were mending nets with their father Zebedee when Jesus called them. Jesus named the brothers Boanerges, \"the sons of thunder.\" James witnessed the raising of Jairus's daughter, the Transfiguration, and the suffering of Jesus in Gethsemane. He was later killed with the sword by King Herod Agrippa I.",
+    "reference": "Matthew 4:21-22; Mark 3:17"
+  },
+  {
+    "id": "john",
+    "name": "John",
+    "title": "The Beloved Disciple",
+    "group": "twelve",
+    "occupation": "Fisherman",
+    "hometown": "Capernaum, Galilee",
+    "image": "images/john.webp",
+    "bio": "John was the brother of James and a son of Zebedee. He is traditionally identified as \"the disciple whom Jesus loved.\" At the cross, Jesus asked John to care for His mother, Mary. On Easter morning, John ran with Peter to the empty tomb. He is traditionally credited with writing the Gospel of John, three epistles, and the book of Revelation.",
+    "reference": "John 13:23; John 19:26-27"
+  },
+  {
+    "id": "philip",
+    "name": "Philip",
+    "title": "Come and See",
+    "group": "twelve",
+    "occupation": "Unknown",
+    "hometown": "Bethsaida, Galilee",
+    "image": "images/philip.webp",
+    "bio": "Philip came from Bethsaida, the same town as Peter and Andrew. After Jesus called him, Philip found Nathanael and invited him with the simple words, \"Come and see.\" Before the feeding of the five thousand, Jesus tested Philip by asking where bread could be bought. At the Last Supper, Philip asked Jesus to show the apostles the Father.",
+    "reference": "John 1:43-46; John 6:5-7"
+  },
+  {
+    "id": "bartholomew",
+    "name": "Bartholomew",
+    "title": "Without Guile",
+    "group": "twelve",
+    "occupation": "Unknown",
+    "hometown": "Cana, Galilee",
+    "image": "images/bartholomew.webp",
+    "bio": "Bartholomew is commonly identified with Nathanael of Cana, the friend Philip brought to Jesus. At first, Nathanael doubted, asking, \"Can there any good thing come out of Nazareth?\" When Jesus described seeing him under the fig tree, Nathanael declared, \"Thou art the Son of God.\" His honest heart made him a ready witness.",
+    "reference": "John 1:45-51; John 21:2"
+  },
+  {
+    "id": "thomas",
+    "name": "Thomas",
+    "title": "Didymus, the Twin",
+    "group": "twelve",
+    "occupation": "Unknown",
+    "hometown": "Galilee",
+    "image": "images/thomas.webp",
+    "bio": "Thomas, also called Didymus or \"the twin,\" showed courage when he urged the apostles to go with Jesus to Judea, saying, \"Let us also go, that we may die with him.\" He was absent when the risen Lord first appeared and said he would not believe without seeing. Eight days later, Jesus appeared again, and Thomas declared, \"My Lord and my God.\"",
+    "reference": "John 11:16; John 14:5-6"
+  },
+  {
+    "id": "matthew",
+    "name": "Matthew",
+    "title": "Levi the Publican",
+    "group": "twelve",
+    "occupation": "Tax collector",
+    "hometown": "Capernaum, Galilee",
+    "image": "images/matthew.webp",
+    "bio": "Matthew, also called Levi, collected taxes in Capernaum, a job that made him unpopular among his own people. When Jesus said, \"Follow me,\" Matthew arose and left everything. He then hosted a great feast for Jesus with many publicans and sinners. He is traditionally credited with writing the Gospel of Matthew.",
+    "reference": "Matthew 9:9-13; Mark 2:14-17"
+  },
+  {
+    "id": "james-alphaeus",
+    "name": "James, Son of Alphaeus",
+    "title": "James the Less",
+    "group": "twelve",
+    "occupation": "Unknown",
+    "hometown": "Galilee",
+    "image": "images/james-alphaeus.webp",
+    "bio": "Very little is recorded about James the son of Alphaeus, yet he appears in every list of the Twelve. He is often identified with \"James the less,\" whose mother Mary stood near the cross. His story is a reminder that faithful service is not always recorded in detail, yet it still matters.",
+    "reference": "Matthew 10:3; Mark 3:18"
+  },
+  {
+    "id": "simon",
+    "name": "Simon the Zealot",
+    "title": "Zelotes",
+    "group": "twelve",
+    "occupation": "Unknown",
+    "hometown": "Galilee",
+    "image": "images/simon.webp",
+    "bio": "Simon is called \"the Zealot\" in Luke and Acts and \"the Canaanite\" in Matthew and Mark, a title that comes from an Aramaic word meaning \"zealous.\" Some believe he once belonged to a group that opposed Roman rule. Among the Twelve, he served alongside Matthew, a former tax collector for Rome.",
+    "reference": "Matthew 10:4; Mark 3:18"
+  },
+  {
+    "id": "thaddeus",
+    "name": "Jude Thaddeus",
+    "title": "Judas, Not Iscariot",
+    "group": "twelve",
+    "occupation": "Unknown",
+    "hometown": "Galilee",
+    "image": "images/thaddeus.webp",
+    "bio": "This apostle is called Thaddaeus or Lebbaeus in Matthew and Mark and \"Judas the brother of James\" in Luke and Acts. At the Last Supper, he asked how Jesus would reveal Himself to the apostles and not to the world. Jesus answered that He and the Father would come to those who love Him and keep His words.",
+    "reference": "Matthew 10:3; Luke 6:16"
+  },
+  {
+    "id": "judas",
+    "name": "Judas Iscariot",
+    "title": "The Betrayer",
+    "group": "twelve",
+    "occupation": "Treasurer of the Twelve",
+    "hometown": "Kerioth, Judea",
+    "image": "images/judas.webp",
+    "bio": "Judas Iscariot was called as one of the Twelve and carried the group's money bag. He agreed with the chief priests to betray Jesus for thirty pieces of silver and identified Him with a kiss in the Garden of Gethsemane. Afterward, Judas was filled with remorse and returned the money, but he took his own life. His place among the Twelve was later filled by Matthias.",
+    "reference": "Matthew 26:14-16; Matthew 26:47-50"
+  },
+  {
+    "id": "matthias",
+    "name": "Matthias",
+    "title": "Chosen to Complete the Twelve",
+    "group": "later",
+    "occupation": "Unknown",
+    "hometown": "Judea",
+    "image": "images/matthias.webp",
+    "bio": "After the Ascension, Peter taught that someone must take Judas's place as a witness of the Resurrection. The new apostle needed to have followed Jesus from the baptism of John until the Ascension. The disciples proposed Joseph Barsabas and Matthias, prayed, and cast lots. The lot fell on Matthias, and he was numbered with the eleven apostles.",
+    "reference": "Acts 1:15-17; Acts 1:21-26"
+  },
+  {
+    "id": "paul",
+    "name": "Paul",
+    "title": "Apostle to the Gentiles",
+    "group": "later",
+    "occupation": "Tentmaker",
+    "hometown": "Tarsus, Cilicia",
+    "image": "images/paul.webp",
+    "bio": "Saul of Tarsus was a Pharisee who studied under Gamaliel and persecuted the followers of Jesus. On the road to Damascus, he saw a great light and heard the voice of the Lord. After his conversion, he became known as Paul and traveled throughout the Mediterranean world, preaching, establishing congregations, and writing letters that became much of the New Testament.",
+    "reference": "Acts 9:1-20; Acts 17:22-31"
+  },
+  {
+    "id": "barnabas",
+    "name": "Barnabas",
+    "title": "Son of Consolation",
+    "group": "later",
+    "occupation": "Levite and landowner",
+    "hometown": "Cyprus",
+    "image": "images/barnabas.webp",
+    "bio": "Joseph, a Levite from Cyprus, was given the name Barnabas, meaning \"son of consolation.\" He sold land and laid the money at the apostles' feet. When the disciples feared the newly converted Saul, Barnabas brought him to the apostles. He later served in Antioch and traveled with Paul on their first missionary journey, where Luke calls him an apostle.",
+    "reference": "Acts 4:36-37; Acts 9:26-27"
+  }
+]

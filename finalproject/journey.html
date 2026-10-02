@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Their Journey | The Twelve</title>
+  <meta name="description" content="A timeline of key New Testament events in the lives of the apostles, plus a form to share your thoughts.">
+  <meta name="author" content="Timothy Klintsov">
+  <meta property="og:title" content="Their Journey | The Twelve">
+  <meta property="og:description" content="A timeline of key New Testament events in the lives of the apostles, plus a form to share your thoughts.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://klintsovchik.github.io/wdd231/finalproject/journey.html">
+  <meta property="og:image" content="https://klintsovchik.github.io/wdd231/finalproject/images/galilee-boat.webp">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <script type="module" src="scripts/timeline.js"></script>
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">The Twelve</a>
+    <button id="menu-button" type="button" aria-label="Menu" aria-expanded="false" aria-controls="main-nav">☰</button>
+    <nav id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="apostles.html">Apostles</a>
+      <a class="active" href="journey.html" aria-current="page">Journey</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Their Journey</h1>
+    <p>
+      The story of the apostles begins with fishing boats on the Sea of Galilee
+      and ends with a message carried across the Roman world.
+    </p>
+
+    <figure>
+      <img src="images/galilee-boat.webp" alt="Rembrandt's painting of the disciples in a boat during a storm" width="600" height="450">
+      <figcaption>The Storm on the Sea of Galilee, Rembrandt, 1633</figcaption>
+    </figure>
+
+    <h2>Key Moments</h2>
+    <ol id="timeline"></ol>
+
+    <h2>Share Your Thoughts</h2>
+    <form action="form-action.html" method="get">
+      <label for="first">First name</label>
+      <input id="first" type="text" name="first" required>
+
+      <label for="last">Last name</label>
+      <input id="last" type="text" name="last" required>
+
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" required>
+
+      <label for="apostle">Favorite apostle</label>
+      <select id="apostle" name="apostle" required>
+        <option value="">Choose one</option>
+        <option>Simon Peter</option>
+        <option>Andrew</option>
+        <option>James</option>
+        <option>John</option>
+        <option>Philip</option>
+        <option>Bartholomew</option>
+        <option>Thomas</option>
+        <option>Matthew</option>
+        <option>James, Son of Alphaeus</option>
+        <option>Simon the Zealot</option>
+        <option>Jude Thaddeus</option>
+        <option>Matthias</option>
+        <option>Paul</option>
+        <option>Barnabas</option>
+      </select>
+
+      <label for="message">What did you learn from his story?</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <input id="timestamp" type="hidden" name="timestamp">
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="current-year">2026</span> Timothy Klintsov | WDD 231</p>
+    <p>
+      <a href="attributions.html">Attributions</a> |
+      <a href="https://www.youtube.com/watch?v=REPLACE-WITH-VIDEO-ID">Video Demo</a> |
+      <a href="https://klintsovchik.github.io/wdd231/">Course Home</a>
+    </p>
+    <p id="last-modified"></p>
+  </footer>
+</body>
+</html>
